@@ -13,6 +13,7 @@ void main()
 	int* arr = new int[n];
 	FillRand(arr, n);
 	Print(arr, n);
+	delete[] arr;
 }
 
 void FillRand(int arr[], const int n)
